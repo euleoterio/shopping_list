@@ -1,41 +1,33 @@
-# Arquivos de compilação Java
-target/
-
-# Arquivos de configuração do IDE
-.idea/
-
-# Arquivos de compilação JavaScript
-/node_modules/
-
-# Arquivos de compilação do frontend
-/build/
-
-# Arquivos de logs
-logs/
-
-# Arquivos temporários
-.tmp/
-
-# Arquivos de dependências
-*.iml
-*.class
-*.jar
-*.war
-*.ear
-
-# Arquivos de configuração do Maven
+HELP.md
 target/
 !.mvn/wrapper/maven-wrapper.jar
+!**/src/main/**/target/
+!**/src/test/**/target/
 
-# Arquivos de configuração do Eclipse
-.settings/
+### STS ###
+.apt_generated
 .classpath
+.factorypath
 .project
+.settings
+.springBeans
+.sts4-cache
 
-# Arquivos de configuração do IntelliJ
+### IntelliJ IDEA ###
+.idea
+*.iws
 *.iml
 *.ipr
-*.iws
 
-# Cache de dependências do Maven
-.mvn/
+### NetBeans ###
+/nbproject/private/
+/nbbuild/
+/dist/
+/nbdist/
+/.nb-gradle/
+build/
+!**/src/main/**/build/
+!**/src/test/**/build/
+
+### VS Code ###
+.vscode/
