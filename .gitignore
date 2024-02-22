@@ -1,0 +1,41 @@
+# Arquivos de compilação Java
+target/
+
+# Arquivos de configuração do IDE
+.idea/
+
+# Arquivos de compilação JavaScript
+/node_modules/
+
+# Arquivos de compilação do frontend
+/build/
+
+# Arquivos de logs
+logs/
+
+# Arquivos temporários
+.tmp/
+
+# Arquivos de dependências
+*.iml
+*.class
+*.jar
+*.war
+*.ear
+
+# Arquivos de configuração do Maven
+target/
+!.mvn/wrapper/maven-wrapper.jar
+
+# Arquivos de configuração do Eclipse
+.settings/
+.classpath
+.project
+
+# Arquivos de configuração do IntelliJ
+*.iml
+*.ipr
+*.iws
+
+# Cache de dependências do Maven
+.mvn/
